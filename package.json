@@ -1,0 +1,18 @@
+{
+  "name": "text-justify-test",
+  "version": "1.0.0",
+  "description": "Given an array of words, a line length L, and a justification direction, format the text such that each line has exactly L characters and is fully (left, right or full) justified.",
+  "main": "justify_text.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  }
+}
